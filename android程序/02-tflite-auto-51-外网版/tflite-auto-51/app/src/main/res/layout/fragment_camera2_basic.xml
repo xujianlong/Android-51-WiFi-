@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.android.tflitecamerademo.AutoFitTextureView
+        android:id="@+id/texture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <FrameLayout
+        android:id="@+id/control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/control_background">
+
+        <TextView android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="80dp"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+
+    <!--<LinearLayout
+        android:id="@+id/control"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/control_background"
+        android:orientation="vertical">
+        &lt;!&ndash;android:background="@color/control_background"&ndash;&gt;
+
+
+        <TextView
+            android:id="@+id/text"
+            android:hint="结果显示区"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#FFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        &lt;!&ndash;<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="right"
+            android:paddingLeft="50dp">
+
+            <Button
+                android:id="@+id/send_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="20dp"
+                android:text="发送"
+                android:textColor="@color/textdark"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+             <Button
+                android:id="@+id/stop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:gravity="center"
+                 android:layout_gravity="center_vertical"
+                 android:layout_marginRight="10dp"
+                android:text="急停"
+                android:textColor="@color/textblue"
+                 android:background="@color/backgroundred"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </LinearLayout>&ndash;&gt;
+
+    </LinearLayout>
+-->
+</RelativeLayout>

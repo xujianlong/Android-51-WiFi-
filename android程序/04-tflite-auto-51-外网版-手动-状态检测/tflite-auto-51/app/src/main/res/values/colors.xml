@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="control_background">#528be7</color>
+    <color name="textdark">#000</color>
+    <color name="red">#e20707</color>
+    <color name="textblue">#00f</color>
+    <color name="nomal">#bfb4b4</color>
+    <color name="green">#06b906</color>
+</resources>
